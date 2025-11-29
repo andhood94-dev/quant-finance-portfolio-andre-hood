@@ -111,3 +111,33 @@ This project constructs optimized portfolios using mean-variance and CVaR (Condi
 1. Install dependencies:
    ```bash
    pip install pandas numpy scipy cvxpy matplotlib
+
+
+---
+
+### E. `ml-alpha-signals/README.md`
+
+```markdown
+# ML Alpha Signals
+
+## Overview
+
+This project builds machine learning models that use technical indicators and other features to predict next-day returns, illustrating alpha signal generation.
+
+## Methods
+
+- Feature engineering: returns, moving averages, RSI, volatility, etc.
+- Train/test split with time-aware cross-validation
+- Models: logistic regression / random forest / gradient boosting (as examples)
+- Evaluation: accuracy, precision/recall, ROC-AUC, information coefficient
+
+## Files
+
+- `src/ml_alpha_signals.py` – Creates features, trains models, and evaluates predictive performance.
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib
+

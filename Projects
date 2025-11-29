@@ -1,0 +1,8 @@
+mkdir quant-finance-portfolio-andre-hood
+cd quant-finance-portfolio-andre-hood
+
+git init
+
+mkdir time-series-forecasting multi-factor-risk-model options-pricing portfolio-optimization ml-alpha-signals
+mkdir -p time-series-forecasting/src multi-factor-risk-model/src options-pricing/src portfolio-optimization/src ml-alpha-signals/src
+

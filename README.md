@@ -142,3 +142,41 @@ This project builds machine learning models that use technical indicators and ot
    pip install pandas numpy scikit-learn matplotlib
 
    python src/ml_alpha_signals.py
+
+   
+---
+
+## 4. (Optional) Python file skeletons
+
+Here’s a minimal skeleton you can paste into, say, `src/time_series_forecasting.py` and then fill in:
+
+```python
+import pandas as pd
+import numpy as np
+from statsmodels.tsa.arima.model import ARIMA
+from arch import arch_model
+import matplotlib.pyplot as plt
+
+def load_data(path: str) -> pd.Series:
+    """Load price data and return log returns."""
+    prices = pd.read_csv(path, parse_dates=["date"], index_col="date")["price"]
+    returns = np.log(prices).diff().dropna()
+    return returns
+
+def fit_arima(returns: pd.Series):
+    model = ARIMA(returns, order=(1, 0, 1))
+    return model.fit()
+
+def fit_garch(returns: pd.Series):
+    model = arch_model(returns * 100, vol="Garch", p=1, q=1, dist="normal")
+    return model.fit(disp="off")
+
+def main():
+    returns = load_data("data/prices.csv")
+    arima_res = fit_arima(returns)
+    garch_res = fit_garch(returns)
+    print(arima_res.summary())
+    print(garch_res.summary())
+
+if __name__ == "__main__":
+    main()

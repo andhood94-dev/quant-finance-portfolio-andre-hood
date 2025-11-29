@@ -82,3 +82,32 @@ This project builds a multi-factor risk model estimating exposures to Fama–Fre
    pip install pandas numpy statsmodels matplotlib
 
    python src/options_pricing.py
+
+   
+---
+
+### D. `portfolio-optimization/README.md`
+
+```markdown
+# Portfolio Optimization
+
+## Overview
+
+This project constructs optimized portfolios using mean-variance and CVaR (Conditional Value-at-Risk) approaches under basic constraints.
+
+## Methods
+
+- Estimation of expected returns and covariance matrix
+- Mean-variance optimization (Markowitz)
+- CVaR optimization using scenario returns
+- Constraints: long-only or limited shorting, budget, max weight
+
+## Files
+
+- `src/portfolio_optimization.py` – Loads historical returns, sets up optimization problems, and outputs efficient portfolios.
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install pandas numpy scipy cvxpy matplotlib

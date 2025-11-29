@@ -141,3 +141,4 @@ This project builds machine learning models that use technical indicators and ot
    ```bash
    pip install pandas numpy scikit-learn matplotlib
 
+   python src/ml_alpha_signals.py

@@ -50,3 +50,4 @@ This project demonstrates time-series forecasting of financial returns using ARI
    ```bash
    pip install pandas numpy statsmodels arch matplotlib
 
+   python src/time_series_forecasting.py

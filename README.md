@@ -51,3 +51,33 @@ This project demonstrates time-series forecasting of financial returns using ARI
    pip install pandas numpy statsmodels arch matplotlib
 
    python src/time_series_forecasting.py
+
+   
+---
+
+### B. `multi-factor-risk-model/README.md`
+
+```markdown
+# Multi-Factor Risk Model
+
+## Overview
+
+This project builds a multi-factor risk model estimating exposures to Fama–French style factors and a Momentum factor, then uses those betas to construct and evaluate a long/short portfolio.
+
+## Methods
+
+- Factor construction (Market, Size, Value, Momentum, etc.)
+- Time-series regression of asset returns on factors
+- Estimation of factor betas and specific risk
+- Long/short portfolio construction based on factor exposures
+
+## Files
+
+- `src/multi_factor_risk_model.py` – Constructs factors, estimates betas, and simulates a long/short portfolio with performance stats.
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install pandas numpy statsmodels matplotlib
+

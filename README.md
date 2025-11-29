@@ -81,3 +81,4 @@ This project builds a multi-factor risk model estimating exposures to Fama–Fre
    ```bash
    pip install pandas numpy statsmodels matplotlib
 
+   python src/options_pricing.py

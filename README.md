@@ -15,17 +15,35 @@ Together, they display my ability to build, test, and refine systematic models �
     Built ARIMA and GARCH-based models in Python to forecast daily equity returns and volatility using
     walk-forward validation.
 
-2. ****  
-   Estimating Fama–French and Momentum factor exposures and long/short portfolio construction.
+    Reduced forecast error versus naive benchmarks by systematically modeling autocorrelation and
+    volatility clustering.
 
-3. **Options Pricing**  
-   Black–Scholes pricing, Greeks, and Monte Carlo validation.
+2. ****Multi-Factor Equity Risk Model (Fama–French + Momentum) — Personal Quant Project**  
+   Constructed a multi-factor model estimating asset factor exposures and idiosyncratic risk using
+   cross-sectional regressions.
 
-4. **Portfolio Optimization**  
-   Mean-variance and CVaR-based portfolio construction under risk constraints.
+   Designed a factor-based long/short portfolio using estimated alphas and evaluated performance with
+   Sharpe ratio backtests.
 
-5. **ML Alpha Signals**  
-   Machine learning models using technical features to predict next-day returns.
+3. **Options Pricing & Greeks — Black–Scholes + Monte Carlo — Personal Quant Project**  
+   Implemented Black–Scholes formulas in Python to price European options and compute analytical
+   Greeks.
+
+   Developed a Monte Carlo pricing and Delta estimator to validate closed-form results and study
+   sensitivity to volatility and rates.
+
+5. **Portfolio Optimization Using Mean–Variance and CVaR — Personal Quant Project**  
+   Used historical asset returns and cvxpy to construct mean–variance efficient portfolios with
+   non-negative weights
+
+   Incorporated CVaR-based constraints to reduce downside risk while maintaining competitive
+   expected returns.
+   
+6. **Machine Learning Alpha Signal Detection — Personal Quant Project**  
+   Engineered technical features and trained ML classifiers to predict next-day price direction.
+
+    Applied walk-forward evaluation to limit look-ahead bias and compared model accuracy to baseline
+    strategies.
 
 ---
 

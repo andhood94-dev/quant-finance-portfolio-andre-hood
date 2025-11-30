@@ -18,7 +18,7 @@ Together, they display my ability to build, test, and refine systematic models �
     Reduced forecast error versus naive benchmarks by systematically modeling autocorrelation and
     volatility clustering.
 
-2. ****Multi-Factor Equity Risk Model (Fama–French + Momentum) — Personal Quant Project**  
+2. **Multi-Factor Equity Risk Model (Fama–French + Momentum) — Personal Quant Project**  
    Constructed a multi-factor model estimating asset factor exposures and idiosyncratic risk using
    cross-sectional regressions.
 

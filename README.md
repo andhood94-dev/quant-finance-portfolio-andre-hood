@@ -9,7 +9,7 @@ Each of my projects demonstrates mastery in a core area Citadel values:
    Simulation and derivative pricing, and
    Data-driven decision making.
 
-Together, they display my ability to build, test, and refine systematic models — the foundation of high-performance quant work at Citadel.
+Together, they display my ability to build, test, and refine systematic models — the foundation of high-performance quantitative work at Citadel.
 
 1. **Time-Series Forecasting**  
    ARIMA/GARCH forecasting with walk-forward validation.

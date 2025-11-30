@@ -1,13 +1,13 @@
 # Quantitative Finance Portfolio — Andre Hood
 
 Each of my projects demonstrates mastery in a core area Citadel values:
-   Statistical modeling
-   Machine learning for prediction
-   Market microstructure & volatility understanding
-   Factor risk modeling
-   Portfolio construction under constraints
-   Simulation and derivative pricing
-   Rigorous, data-driven decision making
+   Statistical modeling,
+   Machine learning for prediction,
+   Market microstructure & volatility understanding,
+   Factor risk modeling,
+   Portfolio construction under constraints,
+   Simulation and derivative pricing, and
+   Data-driven decision making.
 
 Together, they display my ability to build, test, and refine systematic models — the foundation of high-performance quant work at Citadel.
 

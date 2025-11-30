@@ -1,6 +1,6 @@
 # Quantitative Finance Portfolio — Andre Hood
 
-Each of my projects demonstrates mastery in a core area Citadel values:
+Each of my projects demonstrates mastery in core area Citadel values:
    Statistical modeling,
    Machine learning for prediction,
    Market microstructure & volatility understanding,

@@ -11,10 +11,11 @@ Each of my projects demonstrates mastery in core area Citadel values:
 
 Together, they display my ability to build, test, and refine systematic models — the foundation of high-performance quantitative work at Citadel.
 
-1. **Time-Series Forecasting**  
-   ARIMA/GARCH forecasting with walk-forward validation.
+1. **Time-Series Forecasting for Financial Returns — Personal Quant Project**  
+    Built ARIMA and GARCH-based models in Python to forecast daily equity returns and volatility using
+    walk-forward validation.
 
-2. **Multi-Factor Risk Model**  
+2. ****  
    Estimating Fama–French and Momentum factor exposures and long/short portfolio construction.
 
 3. **Options Pricing**  
